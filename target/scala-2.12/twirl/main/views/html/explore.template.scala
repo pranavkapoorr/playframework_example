@@ -31,7 +31,7 @@ object explore extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Ht
 
 
 Seq[Any](format.raw/*2.1*/("""
-"""),_display_(/*3.2*/main("Hello World")/*3.21*/ {_display_(Seq[Any](format.raw/*3.23*/("""
+"""),_display_(/*3.2*/main("explore")/*3.17*/ {_display_(Seq[Any](format.raw/*3.19*/("""
 """),_display_(/*4.2*/defining(play.core.PlayVersion.current)/*4.41*/ { version =>_display_(Seq[Any](format.raw/*4.54*/("""
 
 """),format.raw/*6.1*/("""<section id="content">
@@ -135,10 +135,10 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Jan 03 12:20:14 EST 2019
+                  DATE: Sun Jan 06 23:53:51 EST 2019
                   SOURCE: /Users/pranav/Documents/workspace/play-java-hello-world-tutorial/app/views/explore.scala.html
-                  HASH: abb4ac3945eb1b3156b944a06c6d0e80d5f785b0
-                  MATRIX: 943->1|1039->4|1066->6|1093->25|1132->27|1159->29|1206->68|1256->81|1284->83|4440->3212|4469->3219|5119->3841|5148->3842|5178->3845|5243->3883|5271->3884|6535->5121|6550->5127|6596->5151|6713->5242|6749->5257|6781->5262|6842->5293
+                  HASH: 61c0e45fb890d9942af8f2d1754ebfaf8a9fc2c4
+                  MATRIX: 943->1|1039->4|1066->6|1089->21|1128->23|1155->25|1202->64|1252->77|1280->79|4436->3208|4465->3215|5115->3837|5144->3838|5174->3841|5239->3879|5267->3880|6531->5117|6546->5123|6592->5147|6709->5238|6745->5253|6777->5258|6838->5289
                   LINES: 28->1|33->2|34->3|34->3|34->3|35->4|35->4|35->4|37->6|79->48|79->48|89->58|89->58|90->59|91->60|91->60|112->81|112->81|112->81|116->85|116->85|117->86|121->90
                   -- GENERATED --
               */

@@ -30,36 +30,18 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" media="screen" href='"""),_display_(/*8.48*/routes/*8.54*/.Assets.versioned("stylesheets/bootstrap.css")),format.raw/*8.100*/("""'>
-  <link rel="stylesheet" media="screen" href='"""),_display_(/*9.48*/routes/*9.54*/.Assets.versioned("stylesheets/bootswatch.css")),format.raw/*9.101*/("""'>
-  <script src='"""),_display_(/*10.17*/routes/*10.23*/.Assets.versioned("javascripts/jquery.min.js")),format.raw/*10.69*/("""' type="text/javascript"></script>
-  <script src='"""),_display_(/*11.17*/routes/*11.23*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*11.72*/("""' type="text/javascript"></script>
-  <title>Home Page</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Logo</a>
-        <!-- Links -->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
-          </li>
-        </ul>
-      </nav>
-  <h1>Home Page</h1>
-  <img src="/assets/images/play-components.png" alt="">
-</body>
-</html>"""))
+Seq[Any](format.raw/*2.1*/("""
+"""),_display_(/*3.2*/main("HOME")/*3.14*/ {_display_(Seq[Any](format.raw/*3.16*/("""
+
+  """),format.raw/*5.3*/("""<section id="content">
+      <div class="wrapper doc">
+          <article>
+            <h1>Home Page</h1>
+            <img src="/assets/images/play-components.png" alt="">
+            </article>
+            </div>
+  </section>
+""")))}))
       }
     }
   }
@@ -75,11 +57,11 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Sat Jan 05 13:31:22 EST 2019
+                  DATE: Sun Jan 06 23:58:28 EST 2019
                   SOURCE: /Users/pranav/Documents/workspace/play-java-hello-world-tutorial/app/views/index.scala.html
-                  HASH: 4ae67ca0a8e0237325c0ec7b2e6155db83907e82
-                  MATRIX: 941->1|1037->4|1304->245|1318->251|1385->297|1461->347|1475->353|1543->400|1589->419|1604->425|1671->471|1749->522|1764->528|1834->577
-                  LINES: 28->1|33->2|39->8|39->8|39->8|40->9|40->9|40->9|41->10|41->10|41->10|42->11|42->11|42->11
+                  HASH: 702aa22f9b57f92541ffb2f9e473b85f13eeaae0
+                  MATRIX: 941->1|1037->4|1064->6|1084->18|1123->20|1153->24
+                  LINES: 28->1|33->2|34->3|34->3|34->3|36->5
                   -- GENERATED --
               */
           
