@@ -37,6 +37,7 @@ Seq[Any](format.raw/*2.1*/("""
       <div class="wrapper doc">
           <article>
             <h1>Home Page</h1>
+            <p>Welcome to my very first practice project with play framework. It is quite interesting and chellenging :).</p>
             <img src="/assets/images/play-components.png" alt="">
             </article>
             </div>
@@ -57,9 +58,9 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Jan 06 23:58:28 EST 2019
+                  DATE: Mon Jan 07 00:00:15 EST 2019
                   SOURCE: /Users/pranav/Documents/workspace/play-java-hello-world-tutorial/app/views/index.scala.html
-                  HASH: 702aa22f9b57f92541ffb2f9e473b85f13eeaae0
+                  HASH: 96e1602bf3ac5340e4a5f2657defedd5ee0f6bc7
                   MATRIX: 941->1|1037->4|1064->6|1084->18|1123->20|1153->24
                   LINES: 28->1|33->2|34->3|34->3|34->3|36->5
                   -- GENERATED --
